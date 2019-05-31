@@ -8,32 +8,7 @@ Using System.Text;
 Using System.Threading.Tasks;
 Using System.Windows.Forms;
 
-Namespace Trab2Bimestre
-{
-	Partial Public Class Frm1 :  Form
-	{
 
-		int contaLetra = 0;
-		int contaerro = 0;
-	
-		Public Frm1()
-		{
-			InitializeComponent();
-		}
-
-		Private void btmA_Click(Object sender, EventArgs e)
-		{
-			bool teste;
-			teste = testaletra("A");
-			If (teste == False)
-			{
-				lblAErrado.Visible = true;
-				contaerro++;
-				montapessoa();
-			}
-				
-		}
-		Private void btmB_Click(Object sender, EventArgs e)
 		{
 			bool teste;
 			teste = testaletra("B");
